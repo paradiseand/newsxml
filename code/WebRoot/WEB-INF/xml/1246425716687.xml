@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="GBK"?>
+<?xml-stylesheet type="text/xsl" href="replys.xslt" ?>
+
+<评论列表 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../replys.xsd">
+	<公告>
+		<标题>第二届中国虚拟现实行业体验展在京举行</标题>
+		<作者>aa</作者>
+		<发布时间>2015年07月01日</发布时间>
+		<内容><![CDATA[第二届中国虚拟现实行业体验展在京举行]]>
+			<br/><![CDATA[在VR头盔与VR移动头盔方面，本届汇聚了包括GearVR、HTC Vive、Oculus、OSVR在内的国际知名VR硬件厂商，还有3Glasses、uSens、灵境等一线创业团队]]>
+			<br/><![CDATA[展览汇聚了包括GearVR、HTC Vive、Oculus、OSVR、3Glasses、uSens、Ximmerse、TVR等国内外VR硬件、内容团队。]]>
+		</内容>
+	</公告>
+	<评论>
+		<标题>好极了</标题>
+		<作者>bb</作者>
+		<评论时间>2009年07月01日</评论时间>
+		<内容><![CDATA[这是个好消息。]]></内容>
+	</评论>
+	<评论>
+		<标题>以后有问题就去那里</标题>
+		<作者>cc</作者>
+		<评论时间>2009年07月01日</评论时间>
+		<内容><![CDATA[恩，等我学习Java遇到问题时，]]>
+			<br/><![CDATA[一定会去www.crazyit.org看看的。]]>
+		</内容>
+	</评论>
+</评论列表>

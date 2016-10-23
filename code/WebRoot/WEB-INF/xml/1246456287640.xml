@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GBK"?>
+<?xml-stylesheet type="text/xsl" href="replys.xslt" ?>
+
+<评论列表 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="replys.xsd">
+	<公告>
+		<标题>Android应用架构变更背后的经验、失误与推论</标题>
+		<作者>sds</作者>
+		<发布时间>2009年07月01日</发布时间>
+		<内容><![CDATA[Android的开发生态系统发展迅速]]>
+			<br/><![CDATA[本文作者在开发Android应用超过三年的时间里，用来构建Android应用的架构与技术一直在不断进化，具体阐述这些架构变更背后的经验、失误还有推论。 ]]>
+		</内容>
+	</公告>
+	<评论>
+		<标题>xx</标题>
+		<作者>yy</作者>
+		<评论时间>2009年07月01日</评论时间>
+		<内容><![CDATA[TTTTTT]]>
+			<br/><![CDATA[VVVVVVVVV]]>
+		</内容>
+	</评论>
+</评论列表>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<!-- 定义四个基本子元素 -->
+	<xs:element name="标题" type="xs:token"/>
+	<xs:element name="文件名" type="xs:token"/>
+	<xs:element name="发布时间" type="xs:token"/>
+	<xs:element name="作者" type="xs:token"/>
+	<!-- 定义空元素:br -->
+	<xs:element name="br">
+		<xs:complexType/>
+	</xs:element>
+	<!-- 定义公告列表元素 -->
+	<xs:element name="公告列表">
+		<xs:complexType>
+			<!-- 可以包含0～多个公告子元素 -->
+			<xs:sequence>
+				<xs:element ref="公告" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<!-- 定义公告子元素 -->
+	<xs:element name="公告">
+		<xs:complexType>
+			<!-- 定义公告子元素可包含的子元素 -->
+			<xs:sequence>
+				<xs:element ref="标题"/>
+				<xs:element ref="作者"/>
+				<xs:element ref="发布时间"/>
+				<xs:element ref="内容"/>
+				<xs:element ref="文件名"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<!-- 定义内容元素 -->
+	<xs:element name="内容">
+		<!-- 它的内容是混合内容，可包含br子元素 -->
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element ref="br" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

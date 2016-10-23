@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<!-- 为评论列表元素定义类型 -->
+	<xs:complexType name="评论列表_type">
+		<!-- 定义评论列表元素里可包含两个子元素 -->
+		<xs:sequence>
+			<xs:element ref="公告"/>
+			<xs:element ref="评论" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- 为公告元素定义类型 -->
+	<xs:complexType name="公告_type">
+		<!-- 定义公告元素可以包含的多个子元素 -->
+		<xs:sequence>
+			<xs:element ref="标题"/>
+			<xs:element ref="作者"/>
+			<xs:element ref="发布时间"/>
+			<xs:element ref="内容"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- 为评论元素定义类型 -->
+	<xs:complexType name="评论_type">
+		<!-- 定义评论元素可以包含的多个子元素 -->	
+		<xs:sequence>
+			<xs:element ref="标题"/>
+			<xs:element ref="作者"/>
+			<xs:element ref="评论时间"/>
+			<xs:element ref="内容"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- 为内容元素定义类型，该类型是混合内容 -->
+	<xs:complexType name="内容_type" mixed="true">
+		<!-- 可以包含0～多个br元素 -->
+		<xs:sequence>
+			<xs:element ref="br" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- 依次定义多个子元素 -->
+	<xs:element name="评论列表" type="评论列表_type"/>
+	<xs:element name="公告" type="公告_type"/>
+	<xs:element name="评论" type="评论_type"/>
+	<xs:element name="标题" type="xs:token"/>
+	<xs:element name="发布时间" type="xs:token"/>
+	<xs:element name="评论时间" type="xs:token"/>
+	<xs:element name="内容" type="内容_type"/>
+	<xs:element name="作者" type="xs:token"/>
+	<!-- 定义br元素，br元素是个空元素 -->
+	<xs:element name="br">
+		<xs:complexType/>
+	</xs:element>	
+</xs:schema>

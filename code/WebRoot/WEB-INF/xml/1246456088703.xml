@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GBK"?>
+<?xml-stylesheet type="text/xsl" href="replys.xslt" ?>
+
+<评论列表 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="replys.xsd">
+	<公告>
+		<标题>HTC Vive开发者峰会：破除迷思，窥探VR前沿</标题>
+		<作者>三</作者>
+		<发布时间>2015年07月01日</发布时间>
+		<内容><![CDATA[在12月18日的HTC Vive开发者峰会上]]>
+			<br/><![CDATA[来自HTC、Vavle、万代南宫梦、WEVR、Baobab、Noitom等公司的嘉宾从内容制作、游戏设计、人机交互、商业模式等角度，剖析了VR市场的现状与未来趋势。 ]]>
+		</内容>
+	</公告>
+	<评论>
+		<标题>思想</标题>
+		<作者>速度</作者>
+		<评论时间>2009年07月01日</评论时间>
+		<内容><![CDATA[送达方式]]></内容>
+	</评论>
+</评论列表>

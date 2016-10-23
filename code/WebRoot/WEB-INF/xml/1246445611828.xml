@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GBK"?>
+<?xml-stylesheet type="text/xsl" href="replys.xslt" ?>
+
+<评论列表 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="replys.xsd">
+	<公告>
+		<标题>关于HTC Vive，值得开发者关注的三个问题</标题>
+		<作者>aa</作者>
+		<发布时间>2009年07月01日</发布时间>
+		<内容><![CDATA[关于HTC Vive，值得开发者关注的三个问题]]>
+			<br/><![CDATA[HTC从两年前开始进入虚拟现实领域，随后与Valve达成合作，共同研发HTC Vive虚拟现实头盔。此前，外界一直认为HTC只是凭借自身在智能手机开发与制造链方面的经验提供硬件支持，
+			但事实是HTC在软件、硬件研发层面都与Valve进行着紧密合作]]>
+			<br/><![CDATA[HTC Vive对于HTC来讲也并不是一个相对边缘的业务。]]>
+			<br/><![CDATA[这次在北京举办HTC Vive开发者峰会，也有着希望可以吸引更多来自中国内地的VR开发者加入Vive平台。]]>
+		</内容>
+	</公告>
+</评论列表>

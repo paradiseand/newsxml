@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="GBK"?>
+<project name="news" default="compile">
+	<property name="classes" value="classes"/>
+	<property name="src" value="src"/>
+	<property name="xml" value="xml"/>
+
+	<path id="classpath">
+		<pathelement location="${classes}"/>
+		<fileset dir="lib">
+			<include name="**/*.jar"/>
+		</fileset>
+    </path>
+
+	<target name="compile">
+		<delete dir="${classes}"/>
+		<mkdir dir="${classes}"/>
+		<javac destdir="${classes}" debug="on">
+			<src path="${src}"/>
+			<include name="**/*.java"/>
+			<classpath refid="classpath"/>
+		</javac>
+		<copy todir="${classes}">
+			<fileset dir="${xml}">
+				<include name="**/*.xml"/>
+			</fileset>
+		</copy>
+	</target>
+
+</project>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GBK"?>
+<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="www">
+<user>
+   <id>123</id>
+   <name>黎明</name>
+   <password>123</password>
+</user>
+</users>
